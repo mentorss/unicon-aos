@@ -9,5 +9,12 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
 
+    <!--Common-->
     <color name="unicon_purple">#6F43ED</color>
+    <color name="section_label">#2a2933</color>
+    <color name="normal_black">#2a2933</color>
+
+    <!--홈-->
+    <color name="home_explanation">#7f7d8c</color>
+    <color name="home_more">#6957cc</color>
 </resources>

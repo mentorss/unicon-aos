@@ -4,6 +4,10 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/minux/AndroidStudioProjects/Unicon/app/src/main/res/drawable-v24/navi_selector.xml" value="0.38153846153846155" />
+        <entry key="..\:/Users/minux/AndroidStudioProjects/Unicon/app/src/main/res/drawable-v24/search_navi_selector.xml" value="0.38153846153846155" />
+        <entry key="..\:/Users/minux/AndroidStudioProjects/Unicon/app/src/main/res/drawable-v24/selector_navi_match.xml" value="0.38153846153846155" />
+        <entry key="..\:/Users/minux/AndroidStudioProjects/Unicon/app/src/main/res/drawable-v24/selector_navi_mypage.xml" value="0.38153846153846155" />
+        <entry key="..\:/Users/minux/AndroidStudioProjects/Unicon/app/src/main/res/drawable/bottom_navi_selector.xml" value="0.38153846153846155" />
         <entry key="..\:/Users/minux/AndroidStudioProjects/Unicon/app/src/main/res/layout/activity_main.xml" value="0.37135416666666665" />
         <entry key="..\:/Users/minux/AndroidStudioProjects/Unicon/app/src/main/res/layout/activity_splash.xml" value="0.37135416666666665" />
         <entry key="..\:/Users/minux/AndroidStudioProjects/Unicon/app/src/main/res/layout/dialog_lottie.xml" value="0.37135416666666665" />

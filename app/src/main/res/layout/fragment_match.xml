@@ -6,7 +6,7 @@
     <data>
         <variable
             name="viewModel"
-            type="com.mentos.android.unicon.ui.main.matching.MatchingViewModel" />
+            type="com.mentos.android.unicon.ui.main.match.MatchViewModel" />
     </data>
     
     

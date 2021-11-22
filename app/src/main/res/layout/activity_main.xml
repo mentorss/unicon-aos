@@ -31,9 +31,10 @@
         <com.google.android.material.bottomnavigation.BottomNavigationView
             android:id="@+id/main_bottom_navigation"
             android:layout_width="match_parent"
-            android:layout_height="67dp"
+            android:layout_height="56dp"
             android:background="@color/white"
-            app:labelVisibilityMode="labeled"
+            app:labelVisibilityMode="unlabeled"
+            app:itemRippleColor="@color/white"
             app:menu="@menu/navi_menu"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent"

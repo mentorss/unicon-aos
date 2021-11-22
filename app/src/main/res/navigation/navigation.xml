@@ -15,9 +15,9 @@
         android:label="searchFragment"/>
 
     <fragment
-        android:id="@+id/matchingFragment"
-        android:name="com.mentos.android.unicon.ui.main.matching.MatchingFragment"
-        android:label="matchingFragment"/>
+        android:id="@+id/matchFragment"
+        android:name="com.mentos.android.unicon.ui.main.match.MatchFragment"
+        android:label="matchFragment"/>
 
     <fragment
         android:id="@+id/mypageFragment"
