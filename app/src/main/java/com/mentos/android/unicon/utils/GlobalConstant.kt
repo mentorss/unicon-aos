@@ -1,5 +1,8 @@
 package com.mentos.android.unicon.utils
 
+import android.animation.TimeInterpolator
+import kotlin.math.sin
+
 class GlobalConstant {
     companion object{
         //common
@@ -19,6 +22,14 @@ class GlobalConstant {
         //FirebaseStorage Folder
         const val EXAM_FOLDER = "test/exam"
         //const val EXAM_FOLDER = "prod/exam"
+
+        //Animation
+        const val FREQ = 1.5f
+        const val DECAY = 1f
+        val decayingSineWave = TimeInterpolator { input ->
+            val raw = sin(FREQ * input * 2 * Math.PI)
+            (raw * Math.exp((-input * DECAY).toDouble())).toFloat()
+        }
     }
 
 }

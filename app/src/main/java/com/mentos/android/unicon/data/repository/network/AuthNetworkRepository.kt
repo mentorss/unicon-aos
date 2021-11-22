@@ -6,7 +6,6 @@ import com.mentos.android.unicon.data.remote.auth.AuthService
 import com.mentos.android.unicon.data.repository.BaseNetworkRepository
 
 class AuthNetworkRepository(private val authService: AuthService) : BaseNetworkRepository(){
-
     suspend fun autoLogin(): AuthResponse {
         return apiRequest { authService.autoLogin() }
     }

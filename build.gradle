@@ -10,7 +10,7 @@ buildscript {
         okHttp_version = "4.9.0"
         lifecycle_version = "2.2.0"
         koin_version = "2.2.0"
-        paging_version = "3.0.1"
+        paging_version = "3.1.0"
     }
     dependencies {
         classpath "com.android.tools.build:gradle:7.0.3"

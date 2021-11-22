@@ -23,10 +23,10 @@ fun ProgressBar.hide(){
     }
 }
 
-fun View.snackbar(message: String){
-    Snackbar.make(this, message, Snackbar.LENGTH_LONG).also { snackbar ->
-        snackbar.setAction("OK"){
-            snackbar.dismiss()
+fun View.snackBar(message: String){
+    Snackbar.make(this, message, Snackbar.LENGTH_LONG).also { snackBar ->
+        snackBar.setAction("OK"){
+            snackBar.dismiss()
         }
     }.show()
 }

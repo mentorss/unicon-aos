@@ -1,0 +1,26 @@
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_activity_navgraph"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.mentos.android.unicon.ui.main.home.HomeFragment"
+        android:label="homeFragment"/>
+
+    <fragment
+        android:id="@+id/searchFragment"
+        android:name="com.mentos.android.unicon.ui.main.search.SearchFragment"
+        android:label="searchFragment"/>
+
+    <fragment
+        android:id="@+id/matchingFragment"
+        android:name="com.mentos.android.unicon.ui.main.matching.MatchingFragment"
+        android:label="matchingFragment"/>
+
+    <fragment
+        android:id="@+id/mypageFragment"
+        android:name="com.mentos.android.unicon.ui.main.mypage.MyPageFragment"
+        android:label="mypageFragment"/>
+</navigation>

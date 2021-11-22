@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">Unicon</string>
+
+    <!--메뉴-->
+    <string name="menu_home">홈</string>
+    <string name="menu_search">찾기</string>
+    <string name="menu_matching">매칭</string>
+    <string name="menu_mypage">마이페이지</string>
+
+    <!--에러처리-->
+    <string name="default_fail">네트워크연결이 원활하지 않습니다</string>
 </resources>
